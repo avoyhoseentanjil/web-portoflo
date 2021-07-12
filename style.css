@@ -1,5 +1,6 @@
 body{
-    font-family: 'Teko', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin: 1%;
 }
 h1{
     font-size: 50px;
@@ -13,5 +14,34 @@ h1{
    
 }
 .half-page img{
-    width: 100%;
+    width: 85%;
+    
+
+}
+.top-banner{
+    background-image: url(image/top-banner.png) ;
+    background-repeat: no-repeat;
+    border :  1px solid darkgrey;
+}
+section{
+    height: 500px;
+}
+.second-half img{
+    width: 85%;
+}
+.second-half {
+    width:50% ;
+    float: left;
+}
+.second-banner{
+    border: 1px solid salmon;
+    margin-top: 10px;
+}
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
 }
