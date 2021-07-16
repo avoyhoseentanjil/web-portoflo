@@ -14,7 +14,8 @@ h1{
    
 }
 .half-page img{
-    width: 85%;
+    width: 50%;
+    position: relative;
     
 
 }
@@ -24,7 +25,7 @@ h1{
     border :  1px solid darkgrey;
 }
 section{
-    height: 500px;
+    height: 600px;
 }
 .second-half img{
     width: 85%;
@@ -44,4 +45,41 @@ section{
     border-radius: 5px;
     color: rgb(255, 255, 255);
     font-weight: 500;
+}
+  
+}
+.second-banner{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.third-sec{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-web{
+    width:40% ;
+    float: left;
+    margin-left: 70px;
+    padding-right: 10px;
+}
+.single-box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
+    background-color: white;
+}
+#first-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato) ;
+    border-image-slice: 1;
+}
+#second-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
